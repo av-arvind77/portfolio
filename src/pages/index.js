@@ -1,6 +1,6 @@
 import React from "react"
 
-import Header from "../components/header"
+import Header from "../components/header";
 import Layout from "../components/layout";
 import Link from "../components/link";
 import Section from "../components/section";
@@ -9,10 +9,10 @@ import SEO from "../components/seo";
 const IndexPage = () => (
   <Layout>
     <Header />
-    <SEO title="Akash Vishwakarma" />
+    <SEO title="Arvind Pradhan" />
     <Section id="about" title="About Me">
       <p>
-        I'm a motivated full-stack engineer who has experience building and
+        I'm a motivated Android Application development engineer who has experience building and
         scaling web applications and services in various domains.
       </p>
       <p>
@@ -23,8 +23,8 @@ const IndexPage = () => (
     </Section>
     <Section id="experience" title="Experience">
       <Link
-        title="Milliman India"
-        link="https://us.milliman.com/"
+        title="Artivatic AI"
+        link="https://www.artivatic.ai/home/"
         desc="Associate Programmer, June 2017 - Present"
       />
     </Section>

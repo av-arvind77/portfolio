@@ -1,10 +1,9 @@
 module.exports = {
-  pathPrefix: "/my_project",
   siteMetadata: {
     title: `Android Developer`,
     description: `Android Developer in Artivatic.AI`,
     author: `@av-arvind77`,
-    siteURL: 'https;://av-arvind77.github.io/portfolio/'
+    siteURL: 'https://av-arvind77.github.io/portfolio/'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
